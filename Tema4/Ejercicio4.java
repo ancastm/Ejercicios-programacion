@@ -8,7 +8,8 @@ public class Ejercicio4 {
    int horasExtras = 16;
    int horasTrabajadas;
    
-   System.out.println("Introduce las horas trabajadas a la semana");
+   System.out.println("Por favor, introduzca el número de horas trabajadas durante "
+   + " la semana: ");
    horasTrabajadas = Integer.parseInt(s.nextLine());
    
    if (horasTrabajadas <= 40) {
