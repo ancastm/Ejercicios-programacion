@@ -3,8 +3,9 @@ public class Ejercicio10 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     
-  //Escribe un programa que nos diga el horóscopo a partir del dia y el mes de 
-  //nacimiento.
+  /**Escribe un programa que nos diga el horóscopo a partir del dia y el mes de 
+    *nacimiento.
+  */
   
   String horoscopo = "";
   
