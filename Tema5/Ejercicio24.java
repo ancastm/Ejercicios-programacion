@@ -37,11 +37,15 @@
       //for para pintar la línea de la pirámide
       
       for (i = 1; i < filas; i++) {
-        System.out.print(i);
+        //ponemos el i%10 para que cuando le pongamos la altura a partir del 11
+        //no se descuadre la base
+        System.out.print(i%10);
       }
       
       for (i = filas; i > 0; i--) {
-        System.out.print(i);
+        //ponemos el i%10 para que cuando le pongamos la altura a partir del 11
+        //no se descuadre la base
+        System.out.print(i%10);
       }
       
     
